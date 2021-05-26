@@ -414,6 +414,12 @@
   }
   .hire{
     padding: 1px 20px;
+    font-size: 9px;
+    margin-top: 0.2rem;
+    margin-right: 0.6rem;
+  }
+  .hire:after{
+    font-size: 15px;
   }
   .hero__text{
     margin-left:0.3rem;
