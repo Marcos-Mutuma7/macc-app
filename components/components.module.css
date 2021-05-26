@@ -425,7 +425,8 @@
     font-size: 11px;
   }
   .logo__title{
-    margin-left: 0.3rem;
+    margin-left:10px;
+    font-size: 35px;
   }
 }
 
