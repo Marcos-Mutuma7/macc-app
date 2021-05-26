@@ -415,11 +415,17 @@
   .hire{
     padding: 1px 20px;
   }
+  .hero__text{
+    margin-left:0.3rem;
+  }
   .title{
     font-size: 12px;
   }
   .description{
     font-size: 11px;
+  }
+  .logo__title{
+    margin-left: 0.3rem;
   }
 }
 
