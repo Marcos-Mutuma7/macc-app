@@ -416,7 +416,10 @@
     padding: 1px 20px;
   }
   .title{
-    font-size: 14px;
+    font-size: 12px;
+  }
+  .description{
+    font-size: 11px;
   }
 }
 
