@@ -483,6 +483,9 @@
   .mp{
     margin-left: 1rem;
   }
+  .footer{
+    top: 48rem;
+  }
   .footer__h3{
     margin-left: 3.5rem;
   }
