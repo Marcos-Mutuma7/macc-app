@@ -27,8 +27,8 @@ const Hero = () => {
           <h4> we develop up to date digital products from </h4>
           <h4> websites to mobile applications that will take</h4>          
             <h4> your business to an elite level. Sign up a </h4>
-           <h4> contract with us today and get started with our </h4>
-           <h4> affordable services.</h4>
+           <h4> contract with us today and get started</h4>
+           <h4> with our affordable services.</h4>
           </div>
            <Link href='/services'>
          <button className={styles.button}>

@@ -435,6 +435,22 @@
     margin-left:10px;
     font-size: 35px;
   }
+ 
+  .btn__1{
+    padding: 7px 10px;
+  }
+  .btn__2{
+    padding: 7px 10px;
+  }
+  .btn__3{
+    padding: 7px 10px;
+    margin-left: 3rem;
+  }
+  .btn__4{
+    padding: 7px 10px;
+    margin-left: 4rem;
+
+  }
 }
 
 
