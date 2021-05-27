@@ -436,7 +436,7 @@
     font-size: 35px;
   }
   .image{
-    margin-top: 9rem;
+    margin-top: 5rem;
   }
  
   .btn__1{
@@ -452,7 +452,7 @@
     margin-top: -1rem;
   }
   .btn__3{
-    padding: 12px 28px;
+    padding: 12px 24px;
     margin-left:4rem;
     font-size: 12px;
     margin-top: -1rem;
@@ -484,7 +484,7 @@
     margin-left: 1rem;
   }
   .footer{
-    top: 48rem;
+    top: 46rem;
   }
   .footer__h3{
     margin-left: 3.2rem;
@@ -505,7 +505,7 @@
       margin-left: 2rem;
     }    
     .image {
-      margin-top: 4rem;
+      margin-top: 2rem;
       margin-left: 1rem;
     }
     .logo{
