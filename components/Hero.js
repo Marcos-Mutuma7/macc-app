@@ -21,13 +21,14 @@ const Hero = () => {
            </div>
           
            <div className={styles.description}>
-          <h4>Are you a long time company or a start up frachise </h4>
-           <h4>looking to improve your enterprise? Well, here at </h4>
-          <h4>Macc Africa we got you covered, we develop </h4>
-          <h4> up to date digital products from websites to </h4>
-          <h4> mobile applications that will take your business </h4>          
-            <h4> to an elite level. Sign up a contract with us</h4>
-           <h4>and get started with our affordable services.</h4>
+          <h4>Are you a long time company or a start up  </h4>
+           <h4> franchise looking to improve your enterprise? </h4>
+          <h4> Well , here at Macc Africa we got you covered, </h4>
+          <h4> we develop up to date digital products from </h4>
+          <h4> websites to mobile applications that will take</h4>          
+            <h4> your business to an elite level. Sign up a </h4>
+           <h4> contract with us today and get started with our </h4>
+           <h4> affordable services.</h4>
           </div>
            <Link href='/services'>
          <button className={styles.button}>
