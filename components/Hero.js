@@ -23,10 +23,11 @@ const Hero = () => {
            <div className={styles.description}>
           <h4>Are you a long time company or a start up frachise </h4>
            <h4>looking to improve your enterprise? Well, here at </h4>
-              <h4>Macc Africa we got you covered, we develop up to date  </h4>
-              <h4>digital products from websites to mobile applications that</h4>
-              <h4>will take your business to an elite level. Sign up a contract</h4>
-              <h4>with us and get started with our affordable services.</h4>
+          <h4>Macc Africa we got you covered, we develop </h4>
+          <h4> up to date digital products from websites to </h4>
+          <h4> mobile applications that will take your business </h4>          
+            <h4> to an elite level. Sign up a contract with us</h4>
+           <h4>and get started with our affordable services.</h4>
           </div>
            <Link href='/services'>
          <button className={styles.button}>

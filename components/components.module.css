@@ -411,6 +411,7 @@
 @media screen and (max-width : 480px){
   .button{
     padding: 12px 17px;
+    border-radius: 12px;
   }
   .hire{
     padding: 1px 20px;
