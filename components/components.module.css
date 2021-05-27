@@ -396,12 +396,12 @@
     position: absolute;
     margin-left: 7.5rem;
     margin-top: 3.5rem;
-    color: #ffffff;
+    color: #eb0d0d;
     font-size: 1.5rem;
   }
 .footer__h3{
   position: absolute;
-  margin-left: 9.5rem;
+  margin-left: 9rem;
   margin-top: 4.1rem;
   font-size: 1rem;
   color: white;
@@ -487,7 +487,19 @@
     top: 46rem;
   }
   .footer__h3{
-    margin-left: 3.2rem;
+    margin-left: 2.7rem;
+  }
+  .cp{
+    margin-top: 6rem;
+    margin-left: 1rem;
+    color: #f81717;
+    font-size: 1.2rem;
+  }
+  .ma{
+    margin-top:-1.1rem;
+    margin-left: 2.5rem;
+    font-family: 'Comfortaa';
+    color: white;
   }
 }
 

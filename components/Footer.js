@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faTwitter ,faFacebookF,faGithub}  from "@fortawesome/free-brands-svg-icons"
 import {faEnvelope , } from "@fortawesome/free-solid-svg-icons"
 import {faMapMarker} from "@fortawesome/free-solid-svg-icons"
-import {faPhone}  from "@fortawesome/free-solid-svg-icons"
+import {faPhone , faCopyright}  from "@fortawesome/free-solid-svg-icons"
 
 const Footer = () => {
     return (
@@ -18,7 +18,8 @@ const Footer = () => {
           <FontAwesomeIcon className={styles.gm} icon={faEnvelope}></FontAwesomeIcon>
           <FontAwesomeIcon className={styles.mp} icon={faMapMarker}><h1>the</h1></FontAwesomeIcon>
           <h3 className={styles.footer__h3}>Nairobi ,Kenya</h3>
-
+          <FontAwesomeIcon className={styles.cp} icon={faCopyright}></FontAwesomeIcon>
+          <h4 className={styles.ma}>2021 Macc Africa</h4>
 
          </footer>
             
