@@ -12,10 +12,10 @@
     box-sizing: border-box;
     transition: all .7s ease-in;
     width: 100%;
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
   }
+  
  
 
   
@@ -410,12 +410,13 @@
 .wp{
   position: absolute;
   margin-left:24rem;
-  margin-top: -4rem;
-  font-size: 3rem;
+  margin-top: -3.5rem;
+  font-size: 2.5rem;
   color:rgb(12, 243, 81);
 }
   /* media quries */
 @media screen and (max-width : 480px){
+   
   .button{
     padding: 12px 17px;
     border-radius: 12px;
