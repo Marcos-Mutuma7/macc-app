@@ -136,7 +136,7 @@
     position: absolute;
     margin-top:-12rem;
     margin-left:-1rem;
-    color: rgb(0, 0, 0);
+    color: rgb(38, 73, 102);
     background-color: #ffffff;
     padding: 11px 25px;
     border-radius: 20px;
@@ -177,7 +177,7 @@
     position: absolute;
     margin-top:-8rem;
     margin-left:-1rem;
-    color: rgb(0, 0, 0);
+    color: rgb(38, 73, 102);
     background-color: #ffffff;
     padding: 11px 40px;
     border-radius: 20px;
@@ -223,7 +223,7 @@
     border: #2b64b9;
     cursor: pointer;
     background-color: white;
-    color: black;
+    color: rgb(38, 73, 102);
     font-family: 'Comfortaa';
     box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(238, 238, 238, 0.32) 0px 2px 16px 0px;
 
@@ -266,7 +266,7 @@
     cursor:pointer;
     background-color: white;
     border: #2b64b9;
-    color: black;
+    color: rgb(38, 73, 102);
     font-family: 'Comfortaa';
     box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(238, 238, 238, 0.32) 0px 2px 16px 0px;
   }
