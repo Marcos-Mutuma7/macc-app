@@ -423,7 +423,7 @@
   }
   .hire{
     padding: 1px 20px;
-    font-size: 9px;
+    font-size: 10px;
     margin-top: 0.2rem;
     margin-right:0.8rem;
   }
@@ -434,14 +434,14 @@
     margin-left:0.3rem;
   }
   .title{
-    font-size: 12px;
+    font-size: 13px;
   }
   .description{
-    font-size: 12px;
+    font-size: 13px;
   }
   .logo__title{
     margin-left:10px;
-    font-size: 35px;
+    font-size: 38px;
   }
   .image{
     margin-top: 5rem;
