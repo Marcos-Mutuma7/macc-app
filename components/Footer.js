@@ -1,10 +1,11 @@
 import styles from './components.module.css'
 import Styles from '../styles/components.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faTwitter ,faFacebookF,faGithub}  from "@fortawesome/free-brands-svg-icons"
-import {faEnvelope , } from "@fortawesome/free-solid-svg-icons"
+import {faTwitter ,faFacebookF,faGithub ,faWhatsapp}  from "@fortawesome/free-brands-svg-icons"
+import {faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import {faMapMarker} from "@fortawesome/free-solid-svg-icons"
 import {faPhone , faCopyright}  from "@fortawesome/free-solid-svg-icons"
+
 
 const Footer = () => {
     return (
@@ -20,6 +21,7 @@ const Footer = () => {
           <h3 className={styles.footer__h3}>Nairobi ,Kenya</h3>
           <FontAwesomeIcon className={styles.cp} icon={faCopyright}></FontAwesomeIcon>
           <h4 className={styles.ma}>2021 Macc Africa</h4>
+          <FontAwesomeIcon className={styles.wp} icon={faWhatsapp}></FontAwesomeIcon>
 
          </footer>
             
