@@ -423,12 +423,12 @@
   }
   .hire{
     padding: 1px 20px;
-    font-size: 10px;
+    font-size: 9px;
     margin-top: 0.2rem;
     margin-right:0.8rem;
   }
   .hire:after{
-    font-size: 15px;
+    font-size: 14px;
   }
   .hero__text{
     margin-left:0.3rem;
@@ -437,7 +437,7 @@
     font-size: 13px;
   }
   .description{
-    font-size: 13px;
+    font-size: 11px;
   }
   .logo__title{
     margin-left:10px;
