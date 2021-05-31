@@ -8,12 +8,12 @@
   .navbar{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
     margin-left:0;
     height:4.5rem;
     box-sizing: border-box;
     transition: all .7s ease-in;
-  }
+    }
   .logo__title{
     margin-top: 2.2rem;
     margin-left:9px;
@@ -82,7 +82,7 @@
     }
 
      .hero{
-
+      margin-top: -1rem;
      }
      .hero__text{
       margin-left:0.3rem;
@@ -369,7 +369,7 @@
     box-shadow: rgba(25, 41, 221, 0.35) 0px 5px 15px;
 
   }
-  .ph{
+  .wp{
     position: absolute;
     margin-left: 9.5rem;
     margin-top: 1rem;
@@ -386,6 +386,14 @@
     color: rgb(255, 72, 72);
     font-size: 1.5rem;
     box-shadow: rgba(25, 41, 221, 0.35) 0px 5px 15px;
+  }
+  .ph{
+    position: absolute;
+    margin-left:15.5rem;
+    margin-top:1rem;
+    font-size:1.5rem;
+    color: rgb(255, 72, 72);
+    
   }
   .mp{
     position: absolute;
@@ -418,14 +426,6 @@
   font-family: 'Comfortaa';
 
 }
-.wp{
-  margin-right:0.2rem;
-  margin-top: 4.5rem;
-  display: inline-block;
-  transition: all ease-in-out;
-  font-size: 2.5rem;
-  color: #00f87c;
-}
 
 /* media queries */
 
@@ -436,9 +436,9 @@
     margin-top:3.2rem;
   }
   .hire{
-    font-size: 10px;
-    margin-right:5.2rem;
-    padding: 1px 20px;
+    font-size: 9.5px;
+    margin-right:7.3rem;
+    padding: 1px 22px;
   }
   .hire:after{
     font-size: 15px;
@@ -447,28 +447,61 @@
   }
   .banner{
     flex-direction: row;
-    height: 40rem;
+    height: 37.3rem;
   }
   .hero__text{
-    margin-left: 9.5rem;
+    margin-left: 9.4rem;
     margin-top: 5rem;
   }
   .hero__title{
-   font-size: 1.3rem;
+   font-size: 1.2rem;
   }
   .description{
-    font-size: 13.3px;
+    font-size: 13px;
   }
   .hero__image{
     margin-right: 2.4rem;
     margin-top: -2rem;
   }
   .image{
-    width: 90%;
+    width: 85%;
+    margin-top: 3rem;
   }
   .button{
-    padding:15px 34px;
+    padding:15px 32px;
   }
+  .footer{
+    margin-top: -7rem;
+    background-color: #1370c7;
+    background-image: linear-gradient(315deg, #0c2e6d 60%, #536786 90%);
+  }
+  .btn__1{
+    margin-left: 1rem;
+    padding: 13px 35px;
+    margin-top: -7rem;
+  }
+  .btn__2{
+    margin-left:1rem;
+    padding: 13px 49px;
+  
+
+  }
+  .btn__3{
+    margin-left: 13rem;
+    padding: 13px 43px;
+    margin-top: -7rem;
+
+  }
+  .btn__4{
+    margin-left: 13rem;
+    padding: 13px 35px;
+
+  }
+  .icons{
+    margin-left: 8.5rem;
+    font-size: 1rem;
+  }
+  
 }
 
   
