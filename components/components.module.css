@@ -91,9 +91,7 @@
   
   .image{
    margin-top: 5rem;
-   width: 90%;
-
-
+   width: 95%;
   }
 
 
@@ -124,7 +122,7 @@
   .btn__1{
     position: absolute;
     margin-top:-6rem;
-    margin-left:-5rem;
+    margin-left:-5.5rem;
     color: rgb(38, 73, 102);
     background-color: #ffffff;
     padding: 11px 25px;
@@ -165,10 +163,10 @@
   .btn__2{
     position: absolute;
     margin-top:-2rem;
-    margin-left:-5rem;
+    margin-left:-5.5rem;
     color: rgb(38, 73, 102);
     background-color: #ffffff;
-    padding: 11px 40px;
+    padding: 11px 39px;
     border-radius: 20px;
     border: #2b64b9;
     cursor: pointer;
@@ -206,7 +204,7 @@
   .btn__3{
     position: absolute;
     margin-top:-6rem;
-    margin-left: 3.5rem;
+    margin-left: 3rem;
     padding: 10px 32px;
     border-radius:20px;
     border: #2b64b9;
@@ -249,7 +247,7 @@
   .btn__4{
     position: absolute;
     margin-top:-2rem;
-    margin-left:3.5rem;
+    margin-left:3rem;
     padding: 10px 25px;
     border-radius: 20px;
     cursor:pointer;
