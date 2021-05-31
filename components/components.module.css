@@ -1,11 +1,15 @@
   
   /* navbar */
+  .body{
+    background-image: linear-gradient(315deg, #063496 0%, #ddece1 74%);
+
+  }
+
   .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-left:0;
-    background-color:  rgb(229, 250, 238);
     height:4.5rem;
     box-sizing: border-box;
     transition: all .7s ease-in;
@@ -72,8 +76,8 @@
       display: flex;
       justify-content: space-between;
       flex-direction: column;
-      background-image: linear-gradient(315deg, #063496 0%, #ddece1 74%);
-      background-image: linear-gradient(315deg, #063496 0%, #ddece1 74%);
+      
+      
 
     }
 
@@ -85,7 +89,7 @@
      
      }
     .hero__title__h1{
-      margin-left:0.1rem;
+      margin-left:0rem;
     }
   
   .image{
