@@ -32,11 +32,11 @@
     
     border-radius: 10px;
    color: rgb(255, 255, 255);
-   padding: 1px 20px;
+   padding: 1px 18px;
    text-align: center;
    text-decoration: none;
    display: inline-block;
-   font-size: 10px;
+   font-size: 9px;
    transition: ease 0.5s ease-in-out;
    cursor: pointer;
    margin-right:0.7rem;
@@ -47,13 +47,13 @@
    .hire:after {
     content: '-20%';
     display: inline-block;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #000000;
     background-color: #ec8e22;
     border-radius: 25px;
     padding: 3px;
     position: absolute;
-    margin-top: -3.4rem; 
+    margin-top: -3.2rem; 
     margin-left: 5px; 
   }
    .hire:hover {
@@ -294,7 +294,7 @@
        box-shadow: 6px 5px 24px #f3e0e0;
     border-radius: 13px;
     color: rgb(252, 252, 252);
-    padding: 15px 30px;
+    padding: 14px 26px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
