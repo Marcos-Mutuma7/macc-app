@@ -25,6 +25,7 @@ const Footer = () => {
      
        <div className={styles.whatts__app}>
           <FontAwesomeIcon className={styles.wp} icon={faWhatsapp}></FontAwesomeIcon>
+          
         </div>
 
          </footer>
