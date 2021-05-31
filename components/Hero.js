@@ -11,13 +11,13 @@ const Hero = () => {
       <div className={styles.banner}>
         <GoogleFonts href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500&display=swap" rel="stylesheet"/>
 
-      <div className={styles.container}>    
-          <hero className={styles.hero} >
+        
+          <div className={styles.hero} >
               
              <div className={styles.hero__text}>
-           <div className={styles.title}>
+           <div className={styles.hero__title}>
              <h1>Expanding Businesses</h1> 
-            <h1 className={styles.h1}>Across The Globe</h1>
+            <h1 className={styles.hero__title__h1}>Across The Globe</h1>
            </div>
           
            <div className={styles.description}>
@@ -37,19 +37,18 @@ const Hero = () => {
          </Link>
 
          </div>
+         </div>
 
-
+      <div className={styles.hero__image}>
          <div className={styles.image}>
 
-         
-         
           <Image
           src='/images/hero.png'
           width={600}
-          height={500}
-         
-          />
+          height={500} />
+
           <div className={styles.btn__box}>
+
            <button className={styles.btn__1}>
           <span>Services</span>
             </button>
@@ -68,9 +67,10 @@ const Hero = () => {
         
        </div>
         </div>
+    </div>
+
        
-       </hero>
-        </div>
+      
         </div>
     )
 }

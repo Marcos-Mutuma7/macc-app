@@ -7,13 +7,13 @@ import {GoogleFonts} from 'next-google-fonts'
 const Hire = () => {
     return (
         <div>
-        
+         <div>
          <Link href='/hire'>
            <button className={styles.hire}>
             <h2>Hire</h2>
            </button>
            </Link>
-        
+         </div>
         </div>
     )
 }

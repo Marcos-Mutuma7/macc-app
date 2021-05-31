@@ -1,7 +1,5 @@
   
   /* navbar */
-
-
   .navbar{
     display: flex;
     justify-content: space-between;
@@ -11,23 +9,16 @@
     height:4.5rem;
     box-sizing: border-box;
     transition: all .7s ease-in;
-    width: 100%;
-    position: sticky;
-    top: 0;
   }
-  
- 
-
-  
   .logo__title{
     margin-top: 2.2rem;
     margin-left:30px;
     cursor: pointer;
-    font-size: 38px;
+    font-size: 45px;
     color:rgb(22, 21, 88);
     font-family: 'Comfortaa';
-    box-shadow: rgba(10, 88, 119, 0.35) 0px 57px 20px;
-  }
+    box-shadow: rgba(248, 253, 255, 0.35) 0px 18px 1px;
+  } 
   
   .hire{
     background-color: #ff8181;
@@ -51,7 +42,7 @@
    margin-right:0.4rem;
    margin-top:-0.1rem;
    font-family:'Comfortaa';
-   box-shadow: rgba(0, 0, 0, 0.25) 0px 48px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   box-shadow: rgba(255, 244, 244, 0.25) 0px 48px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
    }
    .hire:after {
     content: '-20%';
@@ -74,30 +65,29 @@
     text-decoration: none;
     color: whitesmoke;
   }
-   .marker{
-    position: absolute;
-    cursor: pointer;
-    top: 1.5rem;
-    margin-left: 5rem;
-    font-size: 2.3rem;
-    color:#0c2058
-  }
+  
 
    /* Hero */
-       
+    .banner{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      background-image: linear-gradient(315deg, #063496 0%, #ddece1 74%);
+      background-image: linear-gradient(315deg, #063496 0%, #ddece1 74%);
+
+    }
 
      .hero{
-      position:absolute;
-      top: 4.5rem;
-      left:0rem;
-      background-color: #e2e1d8;
-      background-image: linear-gradient(315deg, #063496 0%, #ddece1 74%);
+      
+    
      }
      .hero__text{
       margin-left:1.5rem;
      
      }
-
+    .hero__title__h1{
+      margin-left:0.1rem;
+    }
   
   .image{
     height: 30rem;
@@ -110,12 +100,12 @@
     
       line-height: 0.2rem;
       margin-left: 0.5rem;
-      font-size:12px ;
+      font-size:13px;
       color:rgb(23, 22, 70);
       font-family: 'Comfortaa';
       font-weight: 900;
   }
-  .title{
+  .hero__title{
     margin-top: 3rem;
     margin-left: 0.4rem;
     line-height: 1.2rem;
@@ -123,9 +113,7 @@
     font-family:'Comfortaa';
       
   }
-  .h1{
-    margin-left: 0rem;
-  }
+  
   
   .btn__box {
     position: absolute;
@@ -145,7 +133,7 @@
     font-family: 'Comfortaa';
     transition: all 0.5s;
     box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(238, 238, 238, 0.32) 0px 2px 16px 0px;
-
+  
   }
   .btn__1 span {
     cursor: pointer;
@@ -414,159 +402,50 @@
   font-size: 2.5rem;
   color:rgb(12, 243, 81);
 }
-  /* media quries */
-@media screen and (max-width : 480px){
-   
-  .button{
-    padding: 12px 17px;
-    border-radius: 12px;
+.wp:after{
+  content: 'hello';
+  display: inline-block;
+  font-size: 1rem;
+  color: #000000;
+  background-color: #ec8e22;
+  border-radius: 25px;
+  padding: 3px;
+  margin-top: -10rem; 
+  margin-left: -5rem;
+}
+
+/* media queries */
+
+@media screen and (min-width :1320px){
+  .logo__title{
+    font-size: 3rem;
+    margin-left: 10rem;
   }
   .hire{
-    padding: 1px 20px;
-    font-size: 9px;
-    margin-top: 0.2rem;
-    margin-right:0.8rem;
+    font-size: 11px;
+    margin-right:5.3rem;
   }
-  .hire:after{
-    font-size: 14px;
+  .banner{
+    flex-direction: row;
+    height: 40rem;
   }
   .hero__text{
-    margin-left:0.3rem;
-  }
-  .title{
-    font-size: 13px;
-  }
-  .description{
-    font-size: 11px;
-  }
-  .logo__title{
-    margin-left:10px;
-    font-size: 38px;
-  }
-  .image{
+    margin-left: 9.5rem;
     margin-top: 5rem;
   }
- 
-  .btn__1{
-    padding: 12px 25px;
-    font-size: 12px;
-    margin-left: -5rem;
-    margin-top: -4rem;
+  .hero__title{
+   font-size: 1.3rem;
   }
-  .btn__2{
-    padding: 12px 36px;
-    font-size: 12px;
-    margin-left: -5rem;
-    margin-top: -0rem;
+  .description{
+    font-size: 13.3px;
   }
-  .btn__3{
-    padding: 12px 30px;
-    margin-left:3.5rem;
-    font-size: 12px;
-    margin-top: -0rem;
-    
+  .hero__image{
+    margin-right: 2.4rem;
+    margin-top: -2rem;
   }
-  .btn__4{
-    padding: 12px 24px;
-    font-size: 12px;
-    margin-left:3.5rem;
-    margin-top: -4rem;
-    
-  }
-  .fb{
-    margin-left:1rem;
-  }
-  .tw{
-    margin-left: 3.5rem;
-  }
-  .gt{
-    margin-left: 6.5rem;
-  }
-  .ph{
-    margin-left:9.5rem;
-  }
-  .gm{
-    margin-left: 12.5rem;
-  }
-  .mp{
-    margin-left: 1rem;
-  }
-  .footer{
-    top: 46rem;
-  }
-  .footer__h3{
-    margin-left: 2.7rem;
-  }
-  .cp{
-    margin-top: 6rem;
-    margin-left: 1rem;
-    color: rgb(255, 72, 72);
-    font-size: 1.2rem;
-  }
-  .ma{
-    margin-top:-1.1rem;
-    margin-left: 2.7rem;
-    font-family: 'Comfortaa';
-    color: rgb(202, 152, 152);
-  }
-  .wp{
-    margin-left: 17rem;
+  .image{
+    width: 90%;
   }
 }
 
-
-
-
-@media screen and (min-width : 1200px){
-   .hero {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }   
-    .hero__text{
-      margin-bottom: 12rem;
-      margin-left: 2rem;
-    }    
-    .image {
-      margin-top: 2rem;
-      margin-left: 1rem;
-    }
-    .logo{
-      margin-top: 1rem;
-      margin-left:3rem;
-      font-family: 'Poppins';
-      color: #1754fd;
-    }
-    .marker{
-      margin-left: 8.5rem;
-    }
-    .hire{  
-      margin-left: 80rem;
-      padding:2px 32px;
-  }
-  .logo__title{
-    font-size: 30px;
-    margin-top: -4.3rem;
-  }
-  .title{
-    line-height: 1.2rem;
-    font-size: 1.7rem;
-    margin-top: -1rem;
-}
-.description{
-  line-height: 0.2rem;
-  font-size: 1.1rem;
-  margin-top:0.1px;
   
-}
-.button{
-  
-  border-radius: 14px;
-  padding: 20px 62px;
-  font-size: 16px;
-  position: absolute;
-  margin-top:1rem;
-  margin-left: 0;
-
-}
-}
