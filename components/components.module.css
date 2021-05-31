@@ -415,7 +415,12 @@
   font-family: 'Comfortaa';
 
 }
-
+.wp{
+  margin-right:0.5rem;
+  margin-top: 5rem;
+  font-size: 2rem;
+  color: #00f87c;
+}
 /* media queries */
 
 @media screen and (min-width :1320px){
