@@ -17,7 +17,7 @@
     font-size: 40px;
     color:rgb(22, 21, 88);
     font-family: 'Comfortaa';
-    box-shadow: rgba(248, 253, 255, 0.35) 0px 18px 1px;
+  
   } 
   
   .hire{
@@ -82,7 +82,7 @@
     
      }
      .hero__text{
-      margin-left:1.5rem;
+      margin-left:0.3rem;
      
      }
     .hero__title__h1{
