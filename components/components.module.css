@@ -336,8 +336,8 @@
 
   .fb{
     position: absolute;
-    margin-left: 7.5rem;
-    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-top: 0.8rem;
     color: rgb(255, 72, 72);
     font-size: 1.5rem;
     cursor: pointer;
@@ -348,7 +348,7 @@
   
   .tw{
     position: absolute;
-    margin-left: 10rem;
+    margin-left: 3.5rem;
     margin-top: 1rem;
     color: rgb(255, 72, 72);
     font-size:1.5rem;
@@ -358,7 +358,7 @@
   }
   .gt{
     position: absolute;
-    margin-left: 13rem;
+    margin-left: 6.5rem;
     margin-top: 1rem;
     color: rgb(255, 72, 72);
     font-size: 1.5rem;
@@ -368,7 +368,7 @@
   }
   .ph{
     position: absolute;
-    margin-left: 16rem;
+    margin-left: 9.5rem;
     margin-top: 1rem;
     color: rgb(255, 72, 72);
     font-size: 1.5rem;
@@ -378,7 +378,7 @@
   }
   .gm{
     position: absolute;
-    margin-left: 19rem;
+    margin-left: 12.5rem;
     margin-top: 1rem;
     color: rgb(255, 72, 72);
     font-size: 1.5rem;
@@ -386,21 +386,35 @@
   }
   .mp{
     position: absolute;
-    margin-left: 7.5rem;
-    margin-top: 3.5rem;
+    margin-left: 1rem;
+    margin-top: 3.1rem;
     color: rgb(255, 72, 72);
     font-size: 1.5rem;
   }
 .footer__h3{
   position: absolute;
-  margin-left: 9rem;
-  margin-top: 4.1rem;
+  margin-left: 3rem;
+  margin-top: 3.7rem;
   font-size: 1rem;
   color: rgb(182, 145, 145);
   font-family: 'Comfortaa';
 }
+.cp{
+  position: absolute;
+  margin-left: 1rem;
+  margin-top: 5.2rem;
+  font-size: 1.5rem;
+  color: rgb(255, 72, 72);
 
+}
+.ma{
+  position: absolute;
+  margin-left: 3rem;
+  margin-top: 5.6rem;
+  color: rgb(182, 145, 145);
+  font-family: 'Comfortaa';
 
+}
 
 /* media queries */
 
