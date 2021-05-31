@@ -12,9 +12,9 @@
   }
   .logo__title{
     margin-top: 2.2rem;
-    margin-left:30px;
+    margin-left:10px;
     cursor: pointer;
-    font-size: 45px;
+    font-size: 40px;
     color:rgb(22, 21, 88);
     font-family: 'Comfortaa';
     box-shadow: rgba(248, 253, 255, 0.35) 0px 18px 1px;
@@ -32,14 +32,14 @@
     
     border-radius: 10px;
    color: rgb(255, 255, 255);
-   padding: 1px 25px;
+   padding: 1px 20px;
    text-align: center;
    text-decoration: none;
    display: inline-block;
    font-size: 10px;
    transition: ease 0.5s ease-in-out;
    cursor: pointer;
-   margin-right:0.4rem;
+   margin-right:0.7rem;
    margin-top:-0.1rem;
    font-family:'Comfortaa';
    box-shadow: rgba(255, 244, 244, 0.25) 0px 48px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
