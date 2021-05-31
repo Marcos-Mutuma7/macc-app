@@ -122,8 +122,8 @@
   }
   .btn__1{
     position: absolute;
-    margin-top:-12rem;
-    margin-left:-1rem;
+    margin-top:-6rem;
+    margin-left:-4rem;
     color: rgb(38, 73, 102);
     background-color: #ffffff;
     padding: 11px 25px;
@@ -163,8 +163,8 @@
 
   .btn__2{
     position: absolute;
-    margin-top:-8rem;
-    margin-left:-1rem;
+    margin-top:-2rem;
+    margin-left:-4rem;
     color: rgb(38, 73, 102);
     background-color: #ffffff;
     padding: 11px 40px;
@@ -204,8 +204,8 @@
  
   .btn__3{
     position: absolute;
-    margin-top:-8rem;
-    margin-left: 9rem;
+    margin-top:-6rem;
+    margin-left: 6rem;
     padding: 10px 32px;
     border-radius:20px;
     border: #2b64b9;
@@ -247,8 +247,8 @@
  
   .btn__4{
     position: absolute;
-    margin-top:-12rem;
-    margin-left:9rem;
+    margin-top:-2rem;
+    margin-left:6rem;
     padding: 10px 25px;
     border-radius: 20px;
     cursor:pointer;
