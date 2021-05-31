@@ -16,7 +16,7 @@
   }
   .logo__title{
     margin-top: 2.2rem;
-    margin-left:10px;
+    margin-left:9px;
     cursor: pointer;
     font-size: 40px;
     color:rgb(22, 21, 88);
@@ -325,10 +325,10 @@
   }
 /*footer*/
   .footer{
-    position: relative;
-    background-color:rgb(22, 21, 88);
-    top:45rem;
-    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 7rem;
     background-image: linear-gradient(315deg, #182e5e 0%, #23295f 74%);
 
   }
@@ -399,35 +399,26 @@
   color: rgb(182, 145, 145);
   font-family: 'Comfortaa';
 }
-.wp{
-  position: absolute;
-  margin-left:24rem;
-  margin-top: -3.9rem;
-  font-size: 2.5rem;
-  color:rgb(12, 243, 81);
-}
-.wp:after{
-  content: 'hello';
-  display: inline-block;
-  font-size: 1rem;
-  color: #000000;
-  background-color: #ec8e22;
-  border-radius: 25px;
-  padding: 3px;
-  margin-top: -10rem; 
-  margin-left: -5rem;
-}
+
+
 
 /* media queries */
 
 @media screen and (min-width :1320px){
   .logo__title{
     font-size: 3rem;
-    margin-left: 10rem;
+    margin-left: 9.9rem;
+    margin-top:3.2rem;
   }
   .hire{
-    font-size: 11px;
-    margin-right:5.3rem;
+    font-size: 10px;
+    margin-right:5.2rem;
+    padding: 1px 20px;
+  }
+  .hire:after{
+    font-size: 15px;
+    margin-top: -3.4rem;
+    margin-left: 1rem;
   }
   .banner{
     flex-direction: row;
@@ -449,6 +440,9 @@
   }
   .image{
     width: 90%;
+  }
+  .button{
+    padding:15px 34px;
   }
 }
 

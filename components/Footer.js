@@ -11,7 +11,7 @@ const Footer = () => {
     return (
          <footer className={styles.footer}>
 
-     <div>
+     <div className={styles.icons}>
          <FontAwesomeIcon className={styles.fb} icon={faFacebookF}></FontAwesomeIcon>
           <FontAwesomeIcon className={styles.tw} icon={faTwitter}></FontAwesomeIcon>
            <FontAwesomeIcon className={styles.gt} icon={faGithub}></FontAwesomeIcon>
@@ -23,9 +23,10 @@ const Footer = () => {
           <h4 className={styles.ma}>2021 Macc Africa</h4>
      </div>
      
-       <div>
+       <div className={styles.whatts__app}>
           <FontAwesomeIcon className={styles.wp} icon={faWhatsapp}></FontAwesomeIcon>
         </div>
+
          </footer>
             
         
