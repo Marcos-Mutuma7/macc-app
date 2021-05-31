@@ -105,7 +105,7 @@
       font-weight: 900;
   }
   .hero__title{
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     margin-top: 3rem;
     margin-left: 0.4rem;
     line-height: 1.2rem;
@@ -205,7 +205,7 @@
   .btn__3{
     position: absolute;
     margin-top:-6rem;
-    margin-left: 5rem;
+    margin-left: 3.5rem;
     padding: 10px 32px;
     border-radius:20px;
     border: #2b64b9;
@@ -248,7 +248,7 @@
   .btn__4{
     position: absolute;
     margin-top:-2rem;
-    margin-left:4rem;
+    margin-left:3.5rem;
     padding: 10px 25px;
     border-radius: 20px;
     cursor:pointer;
