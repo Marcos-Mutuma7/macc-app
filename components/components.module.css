@@ -78,8 +78,7 @@
     }
 
      .hero{
-      
-    
+
      }
      .hero__text{
       margin-left:0.3rem;
@@ -112,7 +111,9 @@
     font-family:'Comfortaa';
       
   }
-  
+  .hero__image{
+    height: 30rem;
+  }
   
   .btn__box {
     position: absolute;
