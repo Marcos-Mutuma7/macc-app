@@ -10,6 +10,7 @@ export default function Layout() {
     
     <div className={styles.body}>
          <Navbar/>
+         
           <Hero/>
           <Footer/>
       

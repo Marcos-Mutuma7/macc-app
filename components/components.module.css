@@ -1,7 +1,7 @@
   
   /* navbar */
   .body{
-    background-image: linear-gradient(315deg, #063496 0%, #ddece1 74%);
+    background-image: linear-gradient(315deg, #0e54a3  50%, #ffffff 50%);
 
   }
 
@@ -21,13 +21,17 @@
     font-size: 40px;
     color:rgb(22, 21, 88);
     font-family: 'Comfortaa';
+    text-shadow: 1px 0.5px #917f7f; 
+     -webkit-box-shadow: 6px 5px 1px #ffffff; 
+      -moz-box-shadow: 3px 2px 1px #ffffff; 
+       box-shadow: 3px 1px 1px #ffffff;
+    border-radius: 13px;
   
   } 
   
   .hire{
-    background-color: #ff8181;
-    background-image: -webk it-linear-gradient(top, #f34f4f, #fa3d3d);  background-image: -moz-linear-gradient(top, #ff6b6b, #fc5650);  background-image: -ms-linear-gradient(top, #ff5d5d, #ff5a44);  background-image: -o-linear-gradient(top, #fc6d54, #ff6565);  background-image: linear-gradient(to bottom, #ff4f42, #ff4444);
- 
+    background-color: #ff4b4b;
+    
     -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
     text-shadow: 1px 0.5px #6e6565; 
      -webkit-box-shadow: 6px 5px 24px #eed2d2; 
@@ -76,44 +80,42 @@
       display: flex;
       justify-content: space-between;
       flex-direction: column;
-      
-      
-
     }
-
      .hero{
       margin-top: -1rem;
      }
      .hero__text{
       margin-left:0.3rem;
-     
+      
      }
     .hero__title__h1{
       margin-left:0rem;
     }
-  
   .image{
    margin-top: 5rem;
    width: 95%;
   }
 
-
   .description{
       line-height: 0.2rem;
       margin-left: 0.5rem;
       font-size:12.5px;
-      color:rgb(23, 22, 70);
+    color:rgb(22, 21, 88);
+      
+      
       font-family: 'Comfortaa';
       font-weight: 900;
   }
   .hero__title{
     font-size: 0.8rem;
     margin-top: 3rem;
+    color:rgb(22, 21, 88);
+    
+
     margin-left: 0.4rem;
     line-height: 1.2rem;
-    color:rgb(22, 21, 88);
+    
     font-family:'Comfortaa';
-      
   }
   .hero__image{
     height: 28rem;
@@ -129,6 +131,9 @@
     text-decoration: none;
     display: inline-block;
     margin-top:-6rem;
+    text-shadow: 1px 0.5px #cfdfee; 
+    
+
     margin-left:-5.5rem;
     color: rgb(6, 26, 43);
     background-color: #ffffff;
@@ -165,10 +170,13 @@
     opacity: 1;
     right: 0;
   }
-  
-
   .btn__2{
     position: absolute;
+    text-decoration: none;
+    text-shadow: 1px 0.5px #cfdfee; 
+    
+    display: inline-block;
+
     margin-top:-2rem;
     margin-left:-5.5rem;
     color: rgb(8, 30, 48);
@@ -179,7 +187,6 @@
     cursor: pointer;
     font-family: 'Comfortaa';
     box-shadow: rgba(13, 147, 236, 0.12) 5px 10px 10px 5px, rgba(12, 99, 214, 0.32) 2px 2px 16px 2px;
-
   }
   .btn__2 span {
     cursor: pointer;
@@ -210,6 +217,11 @@
  
   .btn__3{
     position: absolute;
+    text-decoration: none;
+    display: inline-block;
+    text-shadow: 1px 0.5px #cfdfee; 
+    
+
     margin-top:-6rem;
     margin-left: 3rem;
     padding: 10px 32px;
@@ -254,14 +266,17 @@
  
   .btn__4{
     position: absolute;
+    text-decoration: none;
+    text-shadow: 1px 0.5px #cfdfee; 
+    display: inline-block;
     margin-top:-2rem;
     margin-left:3rem;
-    padding: 10px 25px;
+    padding: 10px 20px;
     border-radius: 20px;
     cursor:pointer;
     background-color: white;
     border: #2b64b9;
-    color: #0d1f35;
+    color: #061a33;
     font-family: 'Comfortaa';
     box-shadow: rgba(13, 147, 236, 0.12) 5px 10px 10px 5px, rgba(12, 99, 214, 0.32) 2px 2px 16px 2px;
     
@@ -294,13 +309,12 @@
 
  
   .button{
-    background-color: #ff6666;
-   background-image: -webk it-linear-gradient(top, #ff4848, #fa3d3d);  background-image: -moz-linear-gradient(top, #ff4a4a, #fc5650);  background-image: -ms-linear-gradient(top, #ff5d5d, #ff715e);  background-image: -o-linear-gradient(top, #fc6d54, #ff6565);  background-image: linear-gradient(to bottom, #ff4f42, #ff4444);
-   -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
-    text-shadow: 1px 0.5px #917f7f; 
-     -webkit-box-shadow: 6px 5px 24px #eed2d2; 
-      -moz-box-shadow: 6px 5px 24px #f3d3d3; 
-       box-shadow: 6px 5px 24px #f3e0e0;
+    background-color: #ff4b4b;
+   border-radius: 28;  -moz-border-radius: 10px;  border-radius: 28px;
+    text-shadow: 1px 0.5px #a39292; 
+     -webkit-box-shadow: 1px 1px 1px #ffffff; 
+      -moz-box-shadow: 1px 1px 1px #ffffff; 
+       box-shadow: 1px 1px 1px #ffffff;
     border-radius: 13px;
     color: rgb(252, 252, 252);
     padding: 14px 26px;
@@ -315,7 +329,7 @@
     position: absolute;
     margin-top:0.7rem;
     margin-left:0.5rem;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgba(255, 254, 254, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
    
   }
   .button:hover {
@@ -333,7 +347,7 @@
     justify-content: space-between;
     flex-direction: row;
     height: 7rem;
-    background-image: linear-gradient(315deg, #063496 10%, #1f2d7a 64%);
+   
     
   
   }
@@ -343,10 +357,9 @@
     position: absolute;
     margin-left: 1rem;
     margin-top: 0.8rem;
-    color: rgb(255, 72, 72);
+    color: rgb(253, 69, 69);
     font-size: 1.5rem;
     cursor: pointer;
-    box-shadow: rgba(35, 47, 184, 0.35) 0px 5px 15px;
     display:inline-block;
      
   }
@@ -354,62 +367,53 @@
   .tw{
     position: absolute;
     margin-left: 3.5rem;
+    color: rgb(253, 69, 69);
     margin-top: 1rem;
-    color: rgb(255, 72, 72);
     font-size:1.5rem;
     cursor: pointer;
-    box-shadow: rgba(29, 42, 187, 0.35) 0px 5px 15px;
 
   }
   .gt{
     position: absolute;
     margin-left: 6.5rem;
     margin-top: 1rem;
-    color: rgb(255, 72, 72);
+    color: rgb(253, 69, 69);
     font-size: 1.5rem;
     cursor: pointer;
-    box-shadow: rgba(25, 41, 221, 0.35) 0px 5px 15px;
-
-  }
-  .wp{
-    position: absolute;
-    margin-left: 9.5rem;
-    margin-top: 1rem;
-    color: rgb(255, 72, 72);
-    font-size: 1.5rem;
-    cursor: pointer;
-    box-shadow: rgba(23, 35, 156, 0.35) 0px 5px 15px;
+    
 
   }
   .gm{
     position: absolute;
-    margin-left: 12.5rem;
+    margin-left: 9.5rem;
     margin-top: 1rem;
-    color: rgb(255, 72, 72);
+    color: rgb(253, 69, 69);
     font-size: 1.5rem;
-    box-shadow: rgba(25, 41, 221, 0.35) 0px 5px 15px;
+    cursor: pointer;
+  
   }
+  
   .ph{
     position: absolute;
-    margin-left:15.5rem;
+    margin-left:12.5rem;
     margin-top:1rem;
     font-size:1.5rem;
-    color: rgb(255, 72, 72);
-    
+    color: rgb(253, 69, 69);
   }
   .mp{
     position: absolute;
     margin-left: 1rem;
     margin-top: 3.1rem;
-    color: rgb(255, 72, 72);
+    color: rgb(253, 69, 69);
     font-size: 1.5rem;
   }
 .footer__h3{
   position: absolute;
   margin-left: 3rem;
   margin-top: 3.7rem;
+  
   font-size: 1rem;
-  color: rgb(182, 145, 145);
+  color: rgb(231, 133, 133);
   font-family: 'Comfortaa';
 }
 .cp{
@@ -417,17 +421,18 @@
   margin-left: 0.8rem;
   margin-top: 5.2rem;
   font-size: 1.5rem;
-  color: rgb(255, 72, 72);
-
+  color: rgb(253, 69, 69);
 }
 .ma{
   position: absolute;
   margin-left: 3rem;
   margin-top: 5.6rem;
-  color: rgb(182, 145, 145);
+  color: rgb(231, 133, 133);
+
   font-family: 'Comfortaa';
 
 }
+
 
 /* media queries */
 
@@ -435,10 +440,11 @@
   .logo__title{
     font-size: 3rem;
     margin-left: 9.9rem;
-    margin-top:3.2rem;
+    margin-top:4.5rem;
   }
   .hire{
     font-size: 9.5px;
+    margin-top: 1rem;
     margin-right:7.3rem;
     padding: 1px 22px;
   }
@@ -453,13 +459,13 @@
   }
   .hero__text{
     margin-left: 9.4rem;
-    margin-top: 5rem;
+    margin-top: 7rem;
   }
   .hero__title{
    font-size: 1.2rem;
   }
   .description{
-    font-size: 13px;
+    font-size: 12.5px;
   }
   .hero__image{
     margin-right: 2.4rem;
@@ -473,13 +479,11 @@
     padding:15px 32px;
   }
   .footer{
-    margin-top: -7rem;
-    background-color: #1370c7;
-    background-image: linear-gradient(315deg, #0c2e6d 60%, #536786 90%);
+    margin-top: -7.2rem;  
   }
   .btn__1{
     margin-left: 1rem;
-    padding: 13px 35px;
+    padding: 13.5px 35px;
     margin-top: -7rem;
   }
   .btn__2{
@@ -496,13 +500,33 @@
   }
   .btn__4{
     margin-left: 13rem;
-    padding: 13px 35px;
+    padding: 13px 30px;
 
   }
   .icons{
-    margin-left: 8.5rem;
-    font-size: 1rem;
+    margin-left: 32rem;
+    
+    
   }
+  .fb{
+    font-size: 1.6rem;
+  }
+  .tw{
+    font-size: 1.6rem;
+  }
+  .gt{
+    font-size: 1.6rem;
+
+  }
+
+.gm{
+  font-size: 1.6rem;
+
+}
+.ph{
+  font-size: 1.6rem;
+
+}
   
 }
 

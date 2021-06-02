@@ -63,7 +63,7 @@ const Hero = () => {
 
             <Link href='/contacts'>
             <button className={styles.btn__4}>
-              <span>Contact</span>
+              <span>Contacts</span>
             </button>
             </Link>
           </div>
