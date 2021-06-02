@@ -419,11 +419,11 @@
   .mp{
     position: absolute;
     margin-left: 1rem;
-    margin-top: 3.1rem;
-  color: rgb(28, 19, 70);
+    margin-top: 3rem;
+   color: rgb(28, 19, 70);
     
     
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 .footer__h3{
   position: absolute;
@@ -439,7 +439,7 @@
   position: absolute;
   margin-left: 0.8rem;
   margin-top: 5.2rem;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: rgb(28, 19, 70);
   
   
@@ -447,7 +447,7 @@
 .ma{
   position: absolute;
   margin-left: 3rem;
-  margin-top: 5.7rem;
+  margin-top: 5.8rem;
   color: rgb(243, 190, 190);
   
   
