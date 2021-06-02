@@ -11,9 +11,8 @@ import Link from 'next/link'
 const Footer = () => {
     return (
          <footer className={styles.footer}>
-        
      <div className={styles.icons}>
-         
+        <hr className={styles.hr}/>
          <FontAwesomeIcon className={styles.fb} icon={faFacebookF}></FontAwesomeIcon>
           <FontAwesomeIcon className={styles.tw} icon={faTwitter}></FontAwesomeIcon>
            <FontAwesomeIcon className={styles.gt} icon={faGithub}></FontAwesomeIcon>
@@ -22,7 +21,7 @@ const Footer = () => {
           <FontAwesomeIcon className={styles.mp} icon={faMapMarker}><h1>the</h1></FontAwesomeIcon>
 
           
-          <h3 className={styles.footer__h3}>Nairobi ,Kenya</h3>
+          <h3 className={styles.footer__h3}>Nairobi Kenya</h3>
           <FontAwesomeIcon className={styles.cp} icon={faCopyright}></FontAwesomeIcon>
           <h4 className={styles.ma}>2021 Macc Africa</h4>
           
