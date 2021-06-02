@@ -1,7 +1,7 @@
   
   /* navbar */
   .body{
-    background-image: linear-gradient(315deg, #0e54a3  50%, #ffffff 50%);
+   
 
   }
 
@@ -28,7 +28,17 @@
     border-radius: 13px;
   
   } 
-  
+  .africa{
+    margin-left:-12rem;
+    margin-bottom:-0.1rem;
+    font-size: 40px;
+    color:rgb(22, 21, 88);
+    text-shadow: 1px 0.5px #917f7f; 
+     -webkit-box-shadow: 6px 5px 1px #ffffff; 
+      -moz-box-shadow: 3px 2px 1px #ffffff; 
+       box-shadow: 3px 1px 1px #ffffff;
+    
+  }
   .hire{
     background-color: #ff4b4b;
     
@@ -76,6 +86,8 @@
       display: flex;
       justify-content: space-between;
       flex-direction: column;
+    background-image: linear-gradient(315deg, #0e54a3  50%, #ffffff 50%);
+
     }
      .hero{
       margin-top: -1rem;
@@ -343,7 +355,7 @@
     justify-content: space-between;
     flex-direction: row;
     height: 7rem;
-   
+    background-color: rgb(27, 102, 199);
     
   
   }
@@ -438,6 +450,9 @@
 /* media queries */
 
 @media screen and (min-width :1320px){
+  .navbar{
+    background-color: rgb(255, 255, 255);
+  }
   .logo__title{
     font-size: 3rem;
     margin-left: 9.9rem;
@@ -456,7 +471,9 @@
   }
   .banner{
     flex-direction: row;
-    height: 37.3rem;
+    height: 30rem;
+    background-image: linear-gradient(315deg, #0e54a3  20%, #ffffff 50%);
+
   }
   .hero__text{
     margin-left: 9.4rem;
@@ -480,7 +497,8 @@
     padding:15px 32px;
   }
   .footer{
-    margin-top: -7.2rem;  
+    margin-top: 0rem;  
+    background-color:#0e54a3 ;
   }
   .btn__1{
     margin-left: 1rem;
@@ -505,7 +523,7 @@
 
   }
   .icons{
-    margin-left: 32rem;
+    margin-left: 9rem;
     
     
   }

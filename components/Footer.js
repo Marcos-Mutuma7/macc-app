@@ -12,7 +12,7 @@ const Footer = () => {
     return (
          <footer className={styles.footer}>
      <div className={styles.icons}>
-        <hr className={styles.hr}/>
+
          <FontAwesomeIcon className={styles.fb} icon={faFacebookF}></FontAwesomeIcon>
           <FontAwesomeIcon className={styles.tw} icon={faTwitter}></FontAwesomeIcon>
            <FontAwesomeIcon className={styles.gt} icon={faGithub}></FontAwesomeIcon>

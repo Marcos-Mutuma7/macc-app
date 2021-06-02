@@ -1,7 +1,7 @@
 import React,{useEffect} from 'react'
 import { StickyContainer, Sticky } from 'react-sticky'
 import styles from './components.module.css'
-import {faMarker} from "@fortawesome/free-solid-svg-icons"
+import {faMarker, faGlobeAfrica} from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {GoogleFonts} from 'next-google-fonts'
 import Link from 'next/link'
@@ -18,7 +18,9 @@ const navbar = () => {
     
         <div>
         <h1 className={styles.logo__title}>macc</h1>
+        
         </div>
+        <FontAwesomeIcon  className ={styles.africa}icon={faGlobeAfrica}/>
                 
          <Hire/>
        </nav>
