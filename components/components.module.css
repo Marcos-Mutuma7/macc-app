@@ -29,7 +29,7 @@
   
   } 
   .africa{
-    margin-left:-7rem;
+    margin-left:-6rem;
     margin-bottom:-0.1rem;
     font-size: 38px;
     color:rgb(22, 21, 88);
@@ -46,7 +46,7 @@
     text-shadow: 1px 0.5px #6e6565; 
       border-radius: 10px;
    color: rgb(255, 255, 255);
-   padding: 1px 18px;
+   padding: 1px 16px;
    text-align: center;
    text-decoration: none;
    display: inline-block;
