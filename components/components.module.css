@@ -30,7 +30,7 @@
   } 
   .africa{
     margin-left:-6rem;
-    margin-bottom:-0.1rem;
+    margin-bottom:-0.2rem;
     font-size: 38px;
     color:rgb(22, 21, 88);
     text-shadow: 1px 0.5px #917f7f; 
@@ -317,7 +317,7 @@
 
  
   .button{
-    background-color: #ff4b4b;
+    background-color: #f74848;
    border-radius: 28;  -moz-border-radius: 10px;  border-radius: 28px;
     text-shadow: 1px 0.5px #a39292; 
      -webkit-box-shadow: 1px 1px 1px #ffffff; 
@@ -370,7 +370,7 @@
     position: absolute;
     margin-left: 1rem;
     margin-top: 0.8rem;
-    color: rgb(253, 69, 69);
+    color: rgb(253, 99, 99);
     font-size: 1.5rem;
     cursor: pointer;
     display:inline-block;
@@ -380,7 +380,8 @@
   .tw{
     position: absolute;
     margin-left: 3.5rem;
-    color: rgb(253, 69, 69);
+    color: rgb(253, 99, 99);
+    
     margin-top: 1rem;
     font-size:1.5rem;
     cursor: pointer;
@@ -390,7 +391,8 @@
     position: absolute;
     margin-left: 6.5rem;
     margin-top: 1rem;
-    color: rgb(253, 69, 69);
+    color: rgb(253, 99, 99);
+    
     font-size: 1.5rem;
     cursor: pointer;
     
@@ -400,7 +402,7 @@
     position: absolute;
     margin-left: 9.5rem;
     margin-top: 1rem;
-    color: rgb(253, 69, 69);
+    color: rgb(253, 99, 99);
     font-size: 1.5rem;
     cursor: pointer;
   
@@ -411,13 +413,15 @@
     margin-left:12.5rem;
     margin-top:1rem;
     font-size:1.5rem;
-    color: rgb(253, 69, 69);
+    color: rgb(253, 99, 99);
+
   }
   .mp{
     position: absolute;
     margin-left: 1rem;
     margin-top: 3.1rem;
-    color: rgb(253, 69, 69);
+    color: rgb(253, 99, 99);
+    
     font-size: 1.5rem;
   }
 .footer__h3{
@@ -434,7 +438,8 @@
   margin-left: 0.8rem;
   margin-top: 5.2rem;
   font-size: 1.5rem;
-  color: rgb(253, 69, 69);
+  color: rgb(253, 99, 99);
+  
 }
 .ma{
   position: absolute;
