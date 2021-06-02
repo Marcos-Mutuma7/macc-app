@@ -34,11 +34,7 @@
     
     -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
     text-shadow: 1px 0.5px #6e6565; 
-     -webkit-box-shadow: 6px 5px 24px #eed2d2; 
-      -moz-box-shadow: 6px 5px 24px #f3d3d3; 
-       box-shadow: 6px 5px 24px #f3e0e0;
-    
-    border-radius: 10px;
+         border-radius: 10px;
    color: rgb(255, 255, 255);
    padding: 1px 18px;
    text-align: center;
@@ -50,7 +46,7 @@
    margin-right:0.7rem;
    margin-top:-0.1rem;
    font-family:'Comfortaa';
-   box-shadow: rgba(255, 244, 244, 0.25) 0px 48px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  
    }
    .hire:after {
     content: '-20%';
@@ -131,7 +127,7 @@
     text-decoration: none;
     display: inline-block;
     margin-top:-6rem;
-    text-shadow: 1px 0.5px #cfdfee; 
+    
     
 
     margin-left:-5.5rem;
@@ -173,7 +169,7 @@
   .btn__2{
     position: absolute;
     text-decoration: none;
-    text-shadow: 1px 0.5px #cfdfee; 
+    
     
     display: inline-block;
 
@@ -219,7 +215,7 @@
     position: absolute;
     text-decoration: none;
     display: inline-block;
-    text-shadow: 1px 0.5px #cfdfee; 
+  
     
 
     margin-top:-6rem;
@@ -267,7 +263,7 @@
   .btn__4{
     position: absolute;
     text-decoration: none;
-    text-shadow: 1px 0.5px #cfdfee; 
+    
     display: inline-block;
     margin-top:-2rem;
     margin-left:3rem;
@@ -329,7 +325,7 @@
     position: absolute;
     margin-top:0.7rem;
     margin-left:0.5rem;
-    box-shadow: rgba(255, 254, 254, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
    
   }
   .button:hover {
