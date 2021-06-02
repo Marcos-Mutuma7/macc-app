@@ -50,7 +50,7 @@
    text-align: center;
    text-decoration: none;
    display: inline-block;
-   font-size: 9px;
+   font-size: 8px;
    transition: ease 0.5s ease-in-out;
    cursor: pointer;
    margin-right:0.7rem;
@@ -61,13 +61,13 @@
    .hire:after {
     content: '-20%';
     display: inline-block;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: #000000;
     background-color: #ec8e22;
     border-radius: 25px;
     padding: 3px;
     position: absolute;
-    margin-top: -3.2rem; 
+    margin-top: -3rem; 
     margin-left: 5px; 
   }
    .hire:hover {
@@ -420,7 +420,8 @@
     position: absolute;
     margin-left: 1rem;
     margin-top: 3rem;
-   color: rgb(28, 19, 70);
+    color: rgb(253, 99, 99);
+   
     
     
     font-size: 1.6rem;
@@ -440,14 +441,15 @@
   margin-left: 0.8rem;
   margin-top: 5.2rem;
   font-size: 1.6rem;
-  color: rgb(28, 19, 70);
+  
+  color: rgb(253, 99, 99);
   
   
 }
 .ma{
   position: absolute;
   margin-left: 3rem;
-  margin-top: 5.8rem;
+  margin-top: 5.7rem;
   color: rgb(243, 190, 190);
   
   
