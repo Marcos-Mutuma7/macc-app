@@ -34,7 +34,7 @@
     
     -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
     text-shadow: 1px 0.5px #6e6565; 
-         border-radius: 10px;
+      border-radius: 10px;
    color: rgb(255, 255, 255);
    padding: 1px 18px;
    text-align: center;
@@ -139,7 +139,7 @@
     cursor: pointer;
     font-family: 'Comfortaa';
     transition: all 0.5s;
-    box-shadow: rgba(13, 147, 236, 0.12) 5px 10px 10px 5px, rgba(12, 99, 214, 0.32) 2px 2px 16px 2px;
+    box-shadow: rgba(48, 78, 97, 0.12) 5px 10px 10px 5px, rgba(86, 118, 160, 0.32) 2px 2px 16px 2px;
   
   }
   .btn__1 span {
@@ -220,7 +220,7 @@
 
     margin-top:-6rem;
     margin-left: 3rem;
-    padding: 10px 32px;
+    padding: 11px 32px;
     border-radius:20px;
     border: #2b64b9;
     cursor: pointer;
@@ -267,7 +267,7 @@
     display: inline-block;
     margin-top:-2rem;
     margin-left:3rem;
-    padding: 10px 20px;
+    padding: 11px 21px;
     border-radius: 20px;
     cursor:pointer;
     background-color: white;
