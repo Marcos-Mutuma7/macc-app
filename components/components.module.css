@@ -420,7 +420,8 @@
     position: absolute;
     margin-left: 1rem;
     margin-top: 3.1rem;
-    color: rgb(253, 99, 99);
+  color: rgb(28, 19, 70);
+    
     
     font-size: 1.5rem;
   }
@@ -439,14 +440,17 @@
   margin-left: 0.8rem;
   margin-top: 5.2rem;
   font-size: 1.5rem;
-  color: rgb(253, 99, 99);
+  color: rgb(28, 19, 70);
+  
   
 }
 .ma{
   position: absolute;
   margin-left: 3rem;
-  margin-top: 5.6rem;
+  margin-top: 5.7rem;
   color: rgb(243, 190, 190);
+  
+  
 
   font-family: 'Comfortaa';
 
