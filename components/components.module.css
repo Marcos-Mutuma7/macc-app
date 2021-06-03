@@ -39,10 +39,7 @@
     margin-top: 2.1rem;
     font-size: 38px;
     color:rgb(22, 21, 88);
-    text-shadow: 1px 0.5px #917f7f; 
-     -webkit-box-shadow: 6px 5px 1px #ffffff; 
-      -moz-box-shadow: 3px 2px 1px #ffffff; 
-       box-shadow: 3px 1px 1px #ffffff;
+    
     
   }
   .hire{
@@ -50,7 +47,7 @@
     
     -webkit-border-radius: 28;  -moz-border-radius: 28;  border-radius: 28px;
     text-shadow: 1px 0.5px #6e6565; 
-      border-radius: 10px;
+      border-radius: 8px;
    color: rgb(255, 255, 255);
    padding: 1px 17px;
    text-align: center;
@@ -67,7 +64,7 @@
    .hire:after {
     content: '-20%';
     display: inline-block;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: #000000;
     background-color: #ec8e22;
     border-radius: 25px;
@@ -156,7 +153,7 @@
     background-color: #ffffff;
     padding: 11px 25px;
     border-radius: 20px;
-    border: #2b64b9;
+    border: #ffffff;
     cursor: pointer;
     font-family: 'Comfortaa';
     transition: all 0.5s;
@@ -246,7 +243,7 @@
     margin-left: 3rem;
     padding: 11px 32px;
     border-radius:20px;
-    border: #2b64b9;
+    border: #ffffff;
     cursor: pointer;
     background-color: white;
     color:rgb(22, 20, 128);
@@ -300,7 +297,7 @@
     border-radius: 20px;
     cursor:pointer;
     background-color: white;
-    border: #2b64b9;
+    border: #ffffff;
 
     
     font-family: 'Comfortaa';
@@ -341,7 +338,7 @@
      -webkit-box-shadow: 1px 1px 1px #ffffff; 
       -moz-box-shadow: 1px 1px 1px #ffffff; 
        box-shadow: 1px 1px 1px #ffffff;
-    border-radius: 13px;
+    border-radius: 11px;
     color: rgb(252, 252, 252);
     padding: 14px 26px;
     cursor: pointer;
