@@ -373,7 +373,8 @@
     position: absolute;
     margin-left: 1rem;
     margin-top: 0.8rem;
-    color: rgb(253, 99, 99);
+  color: rgb(255, 57, 57);
+    
     font-size: 1.5rem;
     cursor: pointer;
     display:inline-block;
@@ -383,7 +384,8 @@
   .tw{
     position: absolute;
     margin-left: 3.5rem;
-    color: rgb(253, 99, 99);
+  color: rgb(255, 57, 57);
+    
     
     margin-top: 1rem;
     font-size:1.5rem;
@@ -394,7 +396,8 @@
     position: absolute;
     margin-left: 6.5rem;
     margin-top: 1rem;
-    color: rgb(253, 99, 99);
+  color: rgb(255, 57, 57);
+    
     
     font-size: 1.5rem;
     cursor: pointer;
@@ -405,7 +408,8 @@
     position: absolute;
     margin-left: 9.5rem;
     margin-top: 1rem;
-    color: rgb(253, 99, 99);
+  color: rgb(255, 57, 57);
+    
     font-size: 1.5rem;
     cursor: pointer;
   
@@ -416,24 +420,23 @@
     margin-left:12.5rem;
     margin-top:1rem;
     font-size:1.5rem;
-    color: rgb(253, 99, 99);
+    color: rgb(255, 57, 57);
+    
+    
 
   }
   .mp{
     position: absolute;
     margin-left: 1rem;
     margin-top: 3rem;
-    color: rgb(253, 99, 99);
-   
-    
-    
+    color: rgb(255, 57, 57);
     font-size: 1.6rem;
   }
 .footer__h3{
   position: absolute;
   margin-left: 3rem;
   margin-top: 3.7rem;
-  color: rgb(243, 190, 190);
+  color: rgb(158, 64, 64);
   
   font-size: 1rem;
   
@@ -445,7 +448,7 @@
   margin-top: 5.2rem;
   font-size: 1.6rem;
   
-  color: rgb(253, 99, 99);
+  color: rgb(255, 57, 57);
   
   
 }
@@ -453,7 +456,7 @@
   position: absolute;
   margin-left: 3rem;
   margin-top: 5.7rem;
-  color: rgb(243, 190, 190);
+  color: rgb(163, 73, 73);
   
   
 
