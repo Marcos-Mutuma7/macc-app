@@ -31,7 +31,7 @@ const Hero = () => {
        <h3> to mobile applications that will </h3>
         <h3>that will take your business to </h3>
        <h3> an elite level. Hire us and get</h3>
-       <h3> started with our affordable services.</h3>
+       <h3> started today.</h3>
          </small>
           </div>
           <Link href="/services">
