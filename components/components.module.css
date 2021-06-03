@@ -444,7 +444,7 @@
   .mp{
     position: absolute;
     margin-left: 1rem;
-    margin-top: 3rem;
+    margin-top: 2.9rem;
     color: rgb(255, 57, 57);
   color: rgb(158, 64, 64);
 
@@ -453,7 +453,7 @@
 .footer__h3{
   position: absolute;
   margin-left: 3rem;
-  margin-top: 3.7rem;
+  margin-top: 3.65rem;
   color: rgb(158, 64, 64);
   
   font-size: 1rem;
@@ -491,12 +491,16 @@
     background-color: rgb(255, 255, 255);
   }
   .logo__title{
-    font-size: 3rem;
+    font-size: 2.8rem;
     margin-left: 9.9rem;
     margin-top:4.5rem;
   }
+  .africa{
+    margin-top: 4.6rem;
+    font-size: 3rem;
+  }
   .hire{
-    font-size: 9.5px;
+    font-size: 9.7px;
     margin-top: 1rem;
     margin-right:7.3rem;
     padding: 1px 22px;
@@ -504,23 +508,24 @@
   .hire:after{
     font-size: 15px;
     margin-top: -3.4rem;
-    margin-left: 1rem;
+    margin-left: 0.7rem;
   }
   .banner{
     flex-direction: row;
     height: 30rem;
-    background-image: linear-gradient(315deg, #0e54a3  20%, #ffffff 50%);
+    background-image: linear-gradient(315deg, #0e54a3  35%, #ffffff 60%);
 
   }
   .hero__text{
     margin-left: 9.4rem;
-    margin-top: 7rem;
+    margin-top: 6.5rem;
   }
   .hero__title{
    font-size: 1.2rem;
   }
   .description{
-    font-size: 12.5px;
+    font-size: 15px;
+  
   }
   .hero__image{
     margin-right: 2.4rem;
@@ -535,7 +540,9 @@
   }
   .footer{
     margin-top: 0rem;  
-    background-color:#0e54a3 ;
+    background-image: linear-gradient(315deg, #16559e  65%, #112994 80%);
+
+    
   }
   .btn__1{
     margin-left: 1rem;
@@ -583,7 +590,21 @@
   font-size: 1.6rem;
 
 }
+.mp{
+  color: #ff4343;
+}
+.cp{
+  color: #ff4343;
   
 }
+.footer__h3{
 
+color: #df9090;
+  
+}
+.ma{
+color: #df9090;
+  
+}
+}
   
