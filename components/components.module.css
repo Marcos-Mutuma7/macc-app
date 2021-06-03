@@ -64,11 +64,11 @@
    .hire:after {
     content: '-20%';
     display: inline-block;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: #000000;
     background-color: #ec8e22;
     border-radius: 25px;
-    padding: 1.8px;
+    padding: 2px;
     position: absolute;
     margin-top: -2.8rem; 
     margin-left: 5px; 
@@ -443,7 +443,7 @@
     margin-left: 1rem;
     margin-top: 2.9rem;
     color: rgb(255, 57, 57);
-  color: rgb(158, 64, 64);
+  
 
     font-size: 1.6rem;
   }
@@ -464,14 +464,14 @@
   font-size: 1.6rem;
   
   color: rgb(255, 57, 57);
-  color: rgb(158, 64, 64);
+  
   
   
 }
 .ma{
   position: absolute;
   margin-left: 3rem;
-  margin-top: 5.7rem;
+  margin-top: 5.8rem;
   color: rgb(163, 73, 73);
   
   
