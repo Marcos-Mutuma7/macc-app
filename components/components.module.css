@@ -65,7 +65,7 @@
     color: #000000;
     background-color: #ec8e22;
     border-radius: 25px;
-    padding: 3px;
+    padding: 2px;
     position: absolute;
     margin-top: -3rem; 
     margin-left: 5px; 
@@ -105,14 +105,14 @@
   }
 
   .description{
-      line-height: 0.2rem;
+      line-height: 0.4rem;
       margin-left: 0.5rem;
       font-size:12.5px;
-    color:rgb(22, 21, 88);
+      color:rgb(22, 21, 88);
       
       
       font-family: 'Comfortaa';
-      font-weight: 900;
+      font-weight: 100;
   }
   .hero__title{
     font-size: 0.8rem;
@@ -143,7 +143,7 @@
     
 
     margin-left:-5.5rem;
-    color: rgb(6, 26, 43);
+    color: rgb(11, 27, 252);
     background-color: #ffffff;
     padding: 11px 25px;
     border-radius: 20px;
@@ -187,7 +187,8 @@
 
     margin-top:-2rem;
     margin-left:-5.5rem;
-    color: rgb(8, 30, 48);
+    color: rgb(11, 27, 252);
+    
     background-color: #ffffff;
     padding: 11px 39px;
     border-radius: 20px;
@@ -237,7 +238,8 @@
     border: #2b64b9;
     cursor: pointer;
     background-color: white;
-    color: rgb(15, 37, 56);
+    color: rgb(11, 27, 252);
+    
     font-family: 'Comfortaa';
     box-shadow: rgba(13, 147, 236, 0.12) 5px 10px 10px 5px, rgba(12, 99, 214, 0.32) 2px 2px 16px 2px;
     
@@ -284,7 +286,8 @@
     cursor:pointer;
     background-color: white;
     border: #2b64b9;
-    color: #061a33;
+    color: rgb(11, 27, 252);
+    
     font-family: 'Comfortaa';
     box-shadow: rgba(13, 147, 236, 0.12) 5px 10px 10px 5px, rgba(12, 99, 214, 0.32) 2px 2px 16px 2px;
     
@@ -355,7 +358,7 @@
     justify-content: space-between;
     flex-direction: row;
     height: 7rem;
-    background-color: rgb(27, 102, 199);
+    background-color: rgb(253, 253, 253);
     
   
   }

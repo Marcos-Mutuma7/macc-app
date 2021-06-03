@@ -22,14 +22,17 @@ const Hero = () => {
           </div>
 
           <div className={styles.description}>
-            <h4>Are you a long time company or a start up </h4>
-            <h4> franchise looking to improve your enterprise? </h4>
-            <h4> Well , here at Macc Africa we got you covered, </h4>
-            <h4> we develop up to date digital products from </h4>
-            <h4> websites to mobile applications that will take</h4>
-            <h4> your business to an elite level. Sign up a </h4>
-            <h4> contract with us today and get started</h4>
-            <h4> with our affordable services.</h4>
+            <small>
+       <h2> Are you a long time company </h2>
+        <h2>or a startup franchise looking</h2>
+       <h2> to improve your enterprise? At</h2>
+       <h2> Macc Africa we develop modern </h2>
+        <h2>digital products from websites </h2>
+       <h2> to mobile applications that will </h2>
+        <h2>that will take your business to </h2>
+       <h2> an elite level. Hire us and take</h2>
+       <h2> your product global.</h2>
+         </small>
           </div>
           <Link href="/services">
             <button className={styles.button}>Read More</button>
