@@ -16,11 +16,11 @@ const navbar = () => {
   
     <nav className={styles.navbar}>
     
-        <div>
+        <div className={styles.logo}>
         <h1 className={styles.logo__title}>macc</h1>
-        
-        </div>
         <FontAwesomeIcon  className ={styles.africa}icon={faGlobeAfrica}/>
+        </div>
+        
                 
          <Hire/>
        </nav>

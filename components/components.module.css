@@ -28,9 +28,14 @@
     border-radius: 13px;
   
   } 
+  .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
   .africa{
-    margin-left:-6rem;
-    margin-bottom:-0.2rem;
+    margin-left:rem;
+    margin-top: 2.1rem;
     font-size: 38px;
     color:rgb(22, 21, 88);
     text-shadow: 1px 0.5px #917f7f; 
