@@ -23,15 +23,15 @@ const Hero = () => {
 
           <div className={styles.description}>
             <small>
-       <h2> Are you a long time company </h2>
-        <h2>or a startup franchise looking</h2>
-       <h2> to improve your enterprise? At</h2>
-       <h2> Macc Africa we develop modern </h2>
-        <h2>digital products from websites </h2>
-       <h2> to mobile applications that will </h2>
-        <h2>that will take your business to </h2>
-       <h2> an elite level. Hire us and take</h2>
-       <h2> your product global.</h2>
+       <h3> Are you a long time company </h3>
+        <h3>or a startup franchise looking</h3>
+       <h3> to improve your enterprise? At</h3>
+       <h3> Macc Africa we develop modern </h3>
+        <h3>digital products from websites </h3>
+       <h3> to mobile applications that will </h3>
+        <h3>that will take your business to </h3>
+       <h3> an elite level. Hire us and take</h3>
+       <h3> your product global.</h3>
          </small>
           </div>
           <Link href="/services">
