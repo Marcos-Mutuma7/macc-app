@@ -9,10 +9,13 @@ import { faLongArrowAltRight } from "@fortawesome/free-solid-svg-icons";
 const Hero = () => {
   return (
     <div className={styles.banner}>
+      <GoogleFonts href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet"/>
+
       <GoogleFonts
         href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500&display=swap"
         rel="stylesheet"
       />
+    
 
       <div className={styles.hero}>
         <div className={styles.hero__text}>
@@ -23,15 +26,13 @@ const Hero = () => {
 
           <div className={styles.description}>
             <small>
-       <h3> Are you a long time company </h3>
-        <h3>or a startup franchise looking</h3>
-       <h3> to improve your enterprise? At</h3>
-       <h3> Macc Africa we develop modern </h3>
-        <h3>digital products from websites </h3>
-       <h3> to mobile applications that will </h3>
-        <h3>that will take your business to </h3>
-       <h3> an elite level. Hire us and get</h3>
-       <h3> started today.</h3>
+       <h3> Are you a long time company or a</h3>
+        <h3> startup franchise looking to improve</h3>
+       <h3>your enterprise? At Macc Africa we</h3>
+       <h3> develop modern digital products from</h3>
+        <h3>websites to mobile applications that</h3>
+       <h3>will take your business to an elite level,</h3>
+        <h3>Hire us and get started today.</h3>
          </small>
           </div>
           <Link href="/services">
