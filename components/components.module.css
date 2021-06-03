@@ -150,7 +150,8 @@
     
 
     margin-left:-5.5rem;
-    color: rgb(11, 27, 252);
+    color:rgb(22, 21, 88);
+    
     background-color: #ffffff;
     padding: 11px 25px;
     border-radius: 20px;
@@ -194,7 +195,8 @@
 
     margin-top:-2rem;
     margin-left:-5.5rem;
-    color: rgb(11, 27, 252);
+    color:rgb(22, 21, 88);
+    
     
     background-color: #ffffff;
     padding: 11px 39px;
@@ -245,7 +247,8 @@
     border: #2b64b9;
     cursor: pointer;
     background-color: white;
-    color: rgb(11, 27, 252);
+    color:rgb(22, 21, 88);
+    
     
     font-family: 'Comfortaa';
     box-shadow: rgba(13, 147, 236, 0.12) 5px 10px 10px 5px, rgba(12, 99, 214, 0.32) 2px 2px 16px 2px;
@@ -284,7 +287,8 @@
   .btn__4{
     position: absolute;
     text-decoration: none;
-    color: rgb(11, 27, 252);
+    color:rgb(22, 21, 88);
+    
     
     display: inline-block;
     margin-top:-2rem;
