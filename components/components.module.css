@@ -150,7 +150,8 @@
     
 
     margin-left:-5.5rem;
-    color:rgb(22, 21, 88);
+    color:rgb(22, 20, 128);
+    
     
     background-color: #ffffff;
     padding: 11px 25px;
@@ -195,7 +196,8 @@
 
     margin-top:-2rem;
     margin-left:-5.5rem;
-    color:rgb(22, 21, 88);
+    color:rgb(22, 20, 128);
+    
     
     
     background-color: #ffffff;
@@ -247,7 +249,8 @@
     border: #2b64b9;
     cursor: pointer;
     background-color: white;
-    color:rgb(22, 21, 88);
+    color:rgb(22, 20, 128);
+    
     
     
     font-family: 'Comfortaa';
@@ -287,7 +290,7 @@
   .btn__4{
     position: absolute;
     text-decoration: none;
-    color:rgb(22, 21, 88);
+    color:rgb(22, 20, 128);
     
     
     display: inline-block;
