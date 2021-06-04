@@ -384,7 +384,7 @@
 @keyframes moveInRight {
   0% {
       opacity: 1;
-      transform: translateX(15px);
+      transform: translateX(-15px);
   }
 
   100% {
