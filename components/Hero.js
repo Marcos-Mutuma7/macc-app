@@ -36,11 +36,11 @@ const Hero = () => {
          </small>
           </div>
           <Link href="/services">
-            <button className={styles.button}>Read More</button>
+            <button className={`${styles["button"]} ${styles["button__animated"]}`}>Read More</button>
           </Link>
         </div>
       </div>
-
+      
       <div className={styles.hero__image}>
         <div className={styles.image}>
           <Image src="/images/hero.png" width={600} height={500} />
