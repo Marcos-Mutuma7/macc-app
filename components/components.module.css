@@ -377,19 +377,19 @@
   
 
 .button__animated {
-  animation: moveInBottom 2s ease-out;
+  animation: moveInRight 2s ease-out;
   animation-fill-mode: backwards;
 }
 
-@keyframes moveInBottom {
+@keyframes moveInRight {
   0% {
       opacity: 1;
-      transform: translateY(15px);
+      transform: translateX(15px);
   }
 
   100% {
       opacity: 1;
-      transform: translateY(0px);
+      transform: translateX(0px);
   }
 }
 /*footer*/
