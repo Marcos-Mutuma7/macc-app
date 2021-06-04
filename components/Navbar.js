@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+import React,{useEffect ,useState} from 'react'
 import { StickyContainer, Sticky } from 'react-sticky'
 import styles from './components.module.css'
 import {faMarker, faGlobeAfrica} from "@fortawesome/free-solid-svg-icons"
@@ -8,13 +8,17 @@ import Link from 'next/link'
 import Hire from './Hire'
 
 
-const navbar = () => {
+const navbar =() => {
+
+
+
+
     return (
     <div>
         <GoogleFonts href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet"/>
     
   
-    <nav className={styles.navbar}>
+    <nav className={styles. navbar}>
     
         <div className={styles.logo}>
         <h1 className={styles.logo__title}>macc</h1>
