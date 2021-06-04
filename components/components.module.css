@@ -43,7 +43,8 @@
     margin-left:rem;
     margin-top: 2.1rem;
     font-size: 38px;
-    color:rgb(255, 77, 77);
+    color: #ff4b4b;
+    
     
     
   }
@@ -110,8 +111,8 @@
       margin-left:0rem;
     }
   .image{
-    display: flex;
-    flex-direction: column;
+   display: flex;
+   flex-direction: column;
    margin-top: 5rem;
    width: 95%;
   }
@@ -121,8 +122,6 @@
       margin-left: 0.5rem;
       font-size:14px;
       color:rgb(22, 21, 88);
-      
-      
       font-family: 'Comfortaa';
       font-weight: 100;
   }
@@ -201,6 +200,7 @@
 
     margin-top:-2rem;
     
+    margin-left:-5.5rem;
     
     
     background-color: #ffffff;
@@ -383,8 +383,8 @@
 
 @keyframes moveInBottom {
   0% {
-      opacity: 0;
-      transform: translateY(25px);
+      opacity: 1;
+      transform: translateY(15px);
   }
 
   100% {
